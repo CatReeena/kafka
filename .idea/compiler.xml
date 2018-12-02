@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafka-1-api" />
+        <module name="kafka-1-consumer" />
+        <module name="kafka-1-producer" />
+        <module name="kafka-1-secondconsumer" />
+        <module name="kafka-1-secondproducer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka-1" target="1.8" />
+      <module name="kafka-1-api" target="1.8" />
+      <module name="kafka-1-consumer" target="1.8" />
+      <module name="kafka-1-producer" target="1.8" />
+      <module name="kafka-1-producer-1" target="1.8" />
+      <module name="kafka-1-secondconsumer" target="1.8" />
+      <module name="kafka-1-secondproducer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

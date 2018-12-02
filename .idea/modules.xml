@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kafka-1.iml" filepath="$PROJECT_DIR$/kafka-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-1-api/kafka-1-api.iml" filepath="$PROJECT_DIR$/kafka-1-api/kafka-1-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-1-consumer/kafka-1-consumer.iml" filepath="$PROJECT_DIR$/kafka-1-consumer/kafka-1-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-1-producer/kafka-1-producer.iml" filepath="$PROJECT_DIR$/kafka-1-producer/kafka-1-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-1-secondconsumer/kafka-1-secondconsumer.iml" filepath="$PROJECT_DIR$/kafka-1-secondconsumer/kafka-1-secondconsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-1-secondproducer/kafka-1-secondproducer.iml" filepath="$PROJECT_DIR$/kafka-1-secondproducer/kafka-1-secondproducer.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+package com.seregy77.msdt.kafka1.service;
+
+import com.seregy77.msdt.kafka1.domain.Purchase;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.messaging.handler.annotation.SendTo;
+import org.springframework.stereotype.Service;
+
+@Slf4j
+@Service
+public class Consumer {
+    @KafkaListener(topics = "second")
+    public void receiveFirstTopic(ConsumerRecord<String, Purchase> record) {
+        log.info("[Topic {}] | Received message: key - {}, value - {}, partition - {}",
+                record.topic(),
+                record.key(),
+                record.value(),
+                record.partition()
+        );
+    }
+}
